@@ -1,1 +1,73 @@
-/*  your css code here. If applicable */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.book-library {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.book {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+
+.book img {
+  justify-items:center;
+  width: 100px;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book h2 {
+  font-size: 18px;
+  margin: 0 0 5px;
+  color: #333;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.book p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.price {
+  width: 100%; 
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 0; 
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px; 
+  margin-left: 0; 
+  display: block; 
+}
